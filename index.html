@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Al-Zahid System of Academies — Website Proposal</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#1F5FE0;--red:#E1252B;--yellow:#F9B417;--ink:#16223F;--body:#5C6785;--line:#E6EBF5}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Poppins",system-ui,sans-serif;background:#F4F7FE;color:var(--body);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1060px;margin:0 auto;padding:0 clamp(18px,4vw,36px)}
+header{background:#fff;border-bottom:1px solid var(--line);padding:16px 0}
+.top{display:flex;align-items:center;gap:12px}
+.top img{width:48px}
+.top b{display:block;font-size:20px;font-weight:800;color:var(--red);letter-spacing:-.02em;line-height:1}
+.top span{display:block;font-size:8.5px;font-weight:700;letter-spacing:.14em;color:var(--ink);margin-top:3px}
+.hero{padding:clamp(40px,6vw,68px) 0 clamp(24px,3vw,36px);text-align:center}
+.tag{display:inline-block;background:#E7EFFE;color:var(--blue);font-size:10.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:7px 15px;border-radius:999px;margin-bottom:18px}
+h1{font-size:clamp(28px,4.6vw,44px);font-weight:800;color:var(--ink);letter-spacing:-.02em;line-height:1.15;margin-bottom:14px}
+.hero p{max-width:60ch;margin:0 auto;font-size:15.5px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding-bottom:clamp(40px,6vw,70px)}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 10px 30px rgba(22,34,63,.07);display:flex;flex-direction:column;transition:transform .2s ease,box-shadow .2s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 20px 44px rgba(22,34,63,.13)}
+.swatch{height:96px;display:flex}
+.swatch i{flex:1}
+.card .body{padding:22px 20px 22px;display:flex;flex-direction:column;gap:9px;flex:1}
+.card h2{font-size:18px;font-weight:700;color:var(--ink);line-height:1.25}
+.card .who{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
+.card p{font-size:13.5px;line-height:1.6;flex:1}
+.card .btn{margin-top:6px;display:inline-flex;align-items:center;justify-content:center;gap:7px;background:var(--blue);color:#fff;font-size:13.5px;font-weight:600;padding:11px 18px;border-radius:999px;transition:background .18s}
+.card .btn:hover{background:#1748B0}
+footer{border-top:1px solid var(--line);background:#fff;padding:22px 0;font-size:12.5px;text-align:center}
+@media(max-width:860px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap top">
+  <img src="logo.png" alt="Al-Zahid System of Academies">
+  <span><b>AL-ZAHID</b><span>SYSTEM OF ACADEMIES</span></span>
+</div></header>
+
+<section class="hero"><div class="wrap">
+  <span class="tag">Website proposal · 2026</span>
+  <h1>Three directions for<br>one academy.</h1>
+  <p>Al-Zahid runs two businesses under one roof — a school for parents to choose, and an IT institute for students to choose themselves. These three designs each answer that differently. Open any of them below.</p>
+</div></section>
+
+<div class="wrap"><div class="grid">
+
+  <a class="card" href="classic/">
+    <span class="swatch"><i style="background:#1F5FE0"></i><i style="background:#fff"></i><i style="background:#E1252B"></i><i style="background:#F9B417"></i></span>
+    <span class="body">
+      <span class="who">For parents</span>
+      <h2>Classic</h2>
+      <p>The full-service school site. Every programme from Primary to Entry Test Prep, campus gallery, learning process, news and map. Familiar and complete.</p>
+      <span class="btn">Open preview →</span>
+    </span>
+  </a>
+
+  <a class="card" href="notice/">
+    <span class="swatch"><i style="background:#0D1A30"></i><i style="background:#F3F5F1"></i><i style="background:#BE1E2D"></i><i style="background:#B98523"></i></span>
+    <span class="body">
+      <span class="who">For parents</span>
+      <h2>Notice Board</h2>
+      <p>Built around a live notice board — the datesheets, admission notices and batch announcements the academy already posts, given a proper home. Calmer and more distinctive.</p>
+      <span class="btn">Open preview →</span>
+    </span>
+  </a>
+
+  <a class="card" href="genz/">
+    <span class="swatch"><i style="background:#FFC61E"></i><i style="background:#1A4C86"></i><i style="background:#D0121B"></i><i style="background:#FFF4DC"></i></span>
+    <span class="body">
+      <span class="who">For students</span>
+      <h2>Gen-Z / ZIC</h2>
+      <p>Bold and direct, aimed at the students who pick their own IT course. Names the actual tools — Photoshop, Python, Shopify, Meta Ads — and pushes straight to WhatsApp.</p>
+      <span class="btn">Open preview →</span>
+    </span>
+  </a>
+
+</div></div>
+
+<footer><div class="wrap">Prepared for Al-Zahid System of Academies · Khan Chowk, Main Ferozepur Road, Lahore</div></footer>
+</body>
+</html>
