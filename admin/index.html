@@ -99,7 +99,8 @@ ol.steps li{margin-bottom:6px}
     <img src="../logo.png" alt="">
     <h1>Website Admin</h1>
     <p>Al-Zahid System of Academies</p>
-    <input type="password" id="pw" placeholder="Enter password" autocomplete="current-password">
+    <input type="text" id="user" placeholder="Username" autocomplete="username" autocapitalize="none" spellcheck="false">
+    <input type="password" id="pw" placeholder="Password" autocomplete="current-password">
     <button class="btn btn-blue" style="width:100%;justify-content:center" id="loginBtn">Sign in</button>
     <p class="err" id="err"></p>
   </div>
@@ -154,7 +155,8 @@ ol.steps li{margin-bottom:6px}
 
 <script>
 /* ---------------- config ---------------- */
-var PASSWORD = 'alzahid2026';   // change this line to set a new password
+var USERNAME = 'waleed';        // change this line to set a new username
+var PASSWORD = 'waleed';        // change this line to set a new password
 var ICON_OPTS = ['cap','book','books','flask','heart','shield','screen','bag','trophy','target','users','board','doc','list','chart','check'];
 
 var data = null, dirty = false, current = 'announcement';
@@ -181,11 +183,16 @@ function unlock(){
   load();
 }
 document.getElementById('loginBtn').onclick = function(){
+  var u = document.getElementById('user').value.trim().toLowerCase();
   var v = document.getElementById('pw').value;
-  if(v === PASSWORD){ sessionStorage.setItem('azsa_auth','1'); unlock(); }
-  else document.getElementById('err').textContent = 'Wrong password. Try again.';
+  if(u === USERNAME && v === PASSWORD){ sessionStorage.setItem('azsa_auth','1'); unlock(); }
+  else document.getElementById('err').textContent = 'Wrong username or password. Try again.';
 };
-document.getElementById('pw').addEventListener('keydown',function(e){ if(e.key==='Enter') document.getElementById('loginBtn').click(); });
+['user','pw'].forEach(function(id){
+  document.getElementById(id).addEventListener('keydown',function(e){
+    if(e.key==='Enter') document.getElementById('loginBtn').click();
+  });
+});
 document.getElementById('logout').onclick = function(e){ e.preventDefault(); sessionStorage.removeItem('azsa_auth'); location.reload(); };
 if(sessionStorage.getItem('azsa_auth')==='1') unlock();
 
