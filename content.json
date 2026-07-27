@@ -1,0 +1,93 @@
+{
+  "announcement": {
+    "enabled": true,
+    "text": "Admissions open for 2026-27 — limited seats in every class.",
+    "linkText": "Apply now",
+    "linkUrl": "#admissions"
+  },
+  "site": {
+    "name": "AL-ZAHID",
+    "sub": "SYSTEM OF ACADEMIES",
+    "phone": "+92 320 0400963",
+    "phone2": "+92 326 9443045",
+    "whatsapp": "923200400963",
+    "email": "alzahidsystemofacademy@gmail.com",
+    "address": "Khan Chowk, Main Bazar # 2 (Sapanwala Bazar), Near Yasir Broast, Main Ferozepur Road, Lahore, Pakistan.",
+    "facebook": "https://www.facebook.com/AlZahidSystemofAcademies",
+    "instagram": "https://www.instagram.com/alzahidsystemofacademies/",
+    "youtube": "#",
+    "tiktok": "https://www.tiktok.com/@zsacademy",
+    "mapEmbed": ""
+  },
+  "hero": {
+    "badge": "Welcome to Al-Zahid System of Academies",
+    "titleLine1": "Pakistan's Next",
+    "titleHighlight": "Generation",
+    "titleLine2": "Academy",
+    "script": "Learning Beyond Books.",
+    "motto": "Discipline. Innovation. Excellence.",
+    "text": "Preparing students from Primary to Intermediate with experienced faculty, modern classrooms, STEM learning and character building.",
+    "btn1": "Apply Now",
+    "btn2": "Book a Campus Visit",
+    "trust": "Trusted by Hundreds of Students in Lahore",
+    "image": ""
+  },
+  "stats": [
+    { "value": "500+", "label": "Students", "sub": "Growing Every Day", "color": "blue" },
+    { "value": "40+", "label": "Expert Teachers", "sub": "Dedicated & Experienced", "color": "red" },
+    { "value": "95%", "label": "Exam Success", "sub": "Proven Track Record", "color": "yellow" },
+    { "value": "15+", "label": "Subjects", "sub": "Wide Range of Choices", "color": "blue" }
+  ],
+  "whyTitle": "Why Choose Al-Zahid?",
+  "why": [
+    { "title": "Experienced Faculty", "text": "Qualified and passionate teachers dedicated to student success.", "icon": "cap" },
+    { "title": "Modern Curriculum", "text": "Updated syllabus with conceptual learning and practical approach.", "icon": "book" },
+    { "title": "Science & Computer Labs", "text": "State-of-the-art labs for hands-on learning.", "icon": "flask" },
+    { "title": "Character Building", "text": "We focus on discipline, values and leadership skills.", "icon": "heart" },
+    { "title": "Safe Environment", "text": "Secure campus with monitored transport facilities.", "icon": "shield" },
+    { "title": "Digital Learning", "text": "Smart classrooms and digital resources for better understanding.", "icon": "screen" }
+  ],
+  "programsTitle": "Explore Our Programs",
+  "programs": [
+    { "title": "Primary", "text": "Building strong foundations for young minds.", "icon": "bag" },
+    { "title": "Middle", "text": "Conceptual learning with fun and engagement.", "icon": "books" },
+    { "title": "Matric", "text": "Prepare for a bright academic future.", "icon": "cap" },
+    { "title": "Intermediate", "text": "FSc, ICS, ICom – Pathways to success.", "icon": "trophy" },
+    { "title": "Computer Courses", "text": "From basic to advanced computer skills.", "icon": "screen" },
+    { "title": "Entry Test Preparation", "text": "Prepare for MDCAT, ECAT, NTS & more.", "icon": "target" }
+  ],
+  "galleryTitle": "Beyond Classrooms",
+  "gallery": [
+    { "label": "Sports Activities", "image": "" },
+    { "label": "Science Projects", "image": "" },
+    { "label": "Computer Lab", "image": "" },
+    { "label": "Events", "image": "" },
+    { "label": "Prize Distribution", "image": "" },
+    { "label": "Student Life", "image": "" }
+  ],
+  "processTitle": "Our Learning Process",
+  "processText": "A student-centered approach that ensures growth at every step of the journey.",
+  "process": [
+    { "title": "Admission", "text": "Simple and transparent admission process." },
+    { "title": "Assessment", "text": "Evaluate strengths and identify improvement areas." },
+    { "title": "Learning", "text": "Conceptual learning with practical implementation." },
+    { "title": "Monthly Progress", "text": "Regular tests and performance tracking." },
+    { "title": "Success", "text": "Building confident, skilled and responsible individuals." }
+  ],
+  "testimonials": [
+    { "text": "Al-Zahid has transformed my child's confidence and learning skills. The teachers are very cooperative and caring.", "name": "Mrs. Sana Khan", "role": "Parent" },
+    { "text": "The environment here is amazing. We not only learn but also grow as better individuals.", "name": "Ali Raza", "role": "Student (FSc)" }
+  ],
+  "news": [
+    { "date": "May 12, 2026", "title": "Admissions Open for 2026-27", "text": "We are excited to announce admissions are now open.", "image": "" },
+    { "date": "May 05, 2026", "title": "Summer Camp 2026", "text": "Join our fun and learning filled summer camp.", "image": "" },
+    { "date": "April 28, 2026", "title": "Annual Result Declared", "text": "Congratulations to all students on their outstanding performance.", "image": "" }
+  ],
+  "cta": {
+    "title": "Ready to Shape Your Child's Future?",
+    "text": "Join Al-Zahid System of Academies Today!",
+    "btn1": "Apply for Admission",
+    "btn2": "Contact Us"
+  },
+  "footerAbout": "Discipline, Innovation, Excellence. We are committed to providing quality education and building a better tomorrow."
+}
